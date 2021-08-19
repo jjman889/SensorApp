@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ jjman889-patch-develop ]
   pull_request:
-    branches: [ master ]
+    branches: [ jjman889-patch-develop ]
 
 jobs:
   build:
