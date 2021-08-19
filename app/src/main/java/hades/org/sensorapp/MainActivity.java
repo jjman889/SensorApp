@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        compass_bt = (Button) findViewById(R.id.start_compass)
+        compass_bt = (Button) findViewById(R.id.start_compass);
         spirit_bt = (Button) findViewById(R.id.start_spirit);
     }
 
