@@ -16,7 +16,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center"
-            android:background="@android:color/red"
+            android:background="#ffff0000" 
           />
     <View
         android:id="@+id/View04"
@@ -25,6 +25,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_gravity="center"
-        android:background="@android:color/red"/>
+        android:background="#ffff0000"/>
     
 </LinearLayout>
