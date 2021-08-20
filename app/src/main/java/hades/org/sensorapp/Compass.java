@@ -29,6 +29,11 @@ public class Compass extends Activity implements SensorEventListener{
         znz_iv = (ImageView) findViewById(R.id.znz_iv);
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 
+        View vertical = (View) findViewById(R.id.vertical);
+        View horizontal = (View) findViewById(R.id.horizon);
+        
+        vertical.setBackgroundColor(Color.RED);
+        horizontal.setBackgroundColor(Color.RED);
     }
 
     @Override
