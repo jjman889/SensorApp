@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
+import android.view.View;
+import android.graphics.Color;
 
 /**
  * Created by Hades on 16/10/8.
